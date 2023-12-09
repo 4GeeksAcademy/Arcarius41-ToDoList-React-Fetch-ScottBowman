@@ -1,12 +1,31 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+  }
+  .container {
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .input-group,
+  .list-group-item {
+    background-color: #2E2E2E;
+    color: #FFFFFF;
+  }
+  .btn {
+    background-color: #3E3E3E;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 10px;
+  }
+  .btn:hover {
+    background-color: #4E4E4E;
+  }
+  #delete-button {
+    background-color: #FF5555;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+  }
